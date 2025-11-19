@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/alfarouq/Desktop/intidar-predictive-model/mlruns/223006418440172571/70b9206dca384191a64eed5913d4cb59/artifacts
+end_time: 1763589318520
+entry_point_name: ''
+experiment_id: '223006418440172571'
+lifecycle_stage: active
+run_id: 70b9206dca384191a64eed5913d4cb59
+run_name: Random_Forest_Run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763589313675
+status: 3
+tags: []
+user_id: alfarouq

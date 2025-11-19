@@ -191,7 +191,7 @@ if __name__ == "__main__":
     numerical_cols = [
         "people_ahead_count", "current_delay_minutes", "active_staff_count", 
         "estimated_duration", "rolling_avg_service_duration", "no_show_rate_today",
-        "day_of_week", "hour_of_day"
+        "day_of_week", "is_weekend", "hour_of_day"
     ]
     
     preprocessor = ColumnTransformer(

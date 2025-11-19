@@ -14,16 +14,16 @@ ml_models = {}
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Load the model on startup
     try:
-        print(f"🔄 Loading model: models:/{MODEL_NAME}/Latest ...")
-        ml_models["wait_time_model"] = mlflow.pyfunc.load_model(f"models:/{MODEL_NAME}/Latest")
+        model_path = "./production_model"
+        print(f"🔄 Loading model from: {model_path} ...")
+        
+        ml_models["wait_time_model"] = mlflow.pyfunc.load_model(model_path)
         print("✅ Model loaded successfully.")
     except Exception as e:
         print(f"❌ CRITICAL ERROR: Could not load model. {e}")
         ml_models["wait_time_model"] = None
     yield
-    # Clean up on shutdown (if needed)
     ml_models.clear()
 
 app = FastAPI(title="Queue Wait Time Prediction API", version="1.0", lifespan=lifespan)

@@ -1,0 +1,10 @@
+artifact_location: file:///Users/alfarouq/Desktop/intidar-predictive-model/mlruns/223006418440172571/models/m-616c400b3c074465b69f8b68106bb345/artifacts
+creation_timestamp: 1763589319243
+experiment_id: '223006418440172571'
+last_updated_timestamp: 1763589320455
+model_id: m-616c400b3c074465b69f8b68106bb345
+model_type: null
+name: model
+source_run_id: 1f2c1521170240cda6128197d7b6b321
+status: 2
+status_message: null
