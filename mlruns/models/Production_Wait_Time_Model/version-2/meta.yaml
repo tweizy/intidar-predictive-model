@@ -1,0 +1,15 @@
+creation_timestamp: 1763576704886
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1763576704886
+model_id: m-2eff837019f5400eaa5085c10b1eaa01
+name: Production_Wait_Time_Model
+run_id: f0f641d80c1e43d4a840cb8c4ed45173
+run_link: null
+source: models:/m-2eff837019f5400eaa5085c10b1eaa01
+status: READY
+status_message: null
+storage_location: file:///Users/alfarouq/Desktop/intidar-predictive-model/mlruns/223006418440172571/models/m-2eff837019f5400eaa5085c10b1eaa01/artifacts
+user_id: null
+version: 2

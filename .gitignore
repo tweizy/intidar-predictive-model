@@ -1,0 +1,4 @@
+.dist
+.venv
+synthetic_clinic_data.csv
+generate_dataset.py

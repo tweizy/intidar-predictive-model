@@ -1,0 +1,42 @@
+artifact_path: file:///Users/alfarouq/Desktop/intidar-predictive-model/mlruns/223006418440172571/models/m-424f4ccb45fa4096950b8e90d502ff6c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.6.0
+model_id: m-424f4ccb45fa4096950b8e90d502ff6c
+model_size_bytes: 5452
+model_uuid: m-424f4ccb45fa4096950b8e90d502ff6c
+prompts: null
+run_id: 363a93d57b3545a4a854b5e318a21274
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "string", "name": "clinic_scale", "required": true}, {"type":
+    "string", "name": "doctor_id", "required": true}, {"type": "long", "name": "people_ahead_count",
+    "required": true}, {"type": "long", "name": "active_staff_count", "required":
+    true}, {"type": "double", "name": "current_delay_minutes", "required": true},
+    {"type": "string", "name": "appointment_type", "required": true}, {"type": "long",
+    "name": "estimated_duration", "required": true}, {"type": "double", "name": "rolling_avg_service_duration",
+    "required": true}, {"type": "double", "name": "no_show_rate_today", "required":
+    true}, {"type": "long", "name": "day_of_week", "required": true}, {"type": "long",
+    "name": "hour_of_day", "required": true}, {"type": "long", "name": "is_weekend",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-11-19 18:24:57.571006'

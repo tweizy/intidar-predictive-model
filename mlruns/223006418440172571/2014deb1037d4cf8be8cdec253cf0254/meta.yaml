@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/alfarouq/Desktop/intidar-predictive-model/mlruns/223006418440172571/2014deb1037d4cf8be8cdec253cf0254/artifacts
+deleted_time: 1763576730944
+end_time: 1763576308512
+entry_point_name: ''
+experiment_id: '223006418440172571'
+lifecycle_stage: deleted
+run_id: 2014deb1037d4cf8be8cdec253cf0254
+run_name: XGBoost_Opt_Run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763576306774
+status: 3
+tags: []
+user_id: alfarouq
